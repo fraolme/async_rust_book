@@ -6,3 +6,6 @@ edition = "2021"
 [dependencies]
 tokio = { version = "1.26.0", features = ["full"]}
 futures-util = "0.3"
+async-task = "4.4.0"
+futures-lite = "1.12.0"
+flume = "0.10.14"
